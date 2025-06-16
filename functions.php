@@ -49,7 +49,7 @@ add_action('after_setup_theme', 'pc_portfolio_setup');
 function pc_portfolio_scripts()
 {
     // Enqueue main stylesheet
-    wp_enqueue_style('pc-portfolio-style', get_stylesheet_uri(), array(), '1.0.0');
+    wp_enqueue_style('pc-portfolio-style', get_template_directory_uri() . '/dist/style.min.css', array(), '1.0.0');
 
     // Enqueue Google Fonts
     wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap', array(), null);

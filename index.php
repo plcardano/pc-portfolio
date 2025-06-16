@@ -267,10 +267,81 @@
                             <span class="tech-tag mobile">Ionic</span>
                             <span class="tech-tag">JavaScript</span>
                             <span class="tech-tag">Tailwind CSS</span>
-                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag admin">MySQL</span>
                         </div>
                     </div>
                 </div>
+
+                <div class="project-card scroll-reveal">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <div class="project-icon">🏛️</div>
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+                        <h3 class="project-title">Law School Regulatory Compliance System</h3>
+                        <p class="project-description">
+                            Digital regulatory platform for law school compliance management, enabling educational institutions to submit required forms, documents, and reports to the regulatory board. Features automated form validation, document management, compliance tracking, deadline notifications, and comprehensive administrative oversight with real-time status monitoring and audit trails.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag admin">Laravel Inertia</span>
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag admin">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card scroll-reveal">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <div class="project-icon">🚛</div>
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+                        <h3 class="project-title">Trucking & Logistics Management System</h3>
+                        <p class="project-description">
+                            Complete trucking and delivery management platform allowing customers to book trucks for deliveries with real-time tracking and route optimization. Features separate mobile applications for customers and drivers, integrated Google Maps for navigation and tracking, automated dispatch system, and comprehensive admin dashboard for fleet management and analytics.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag admin">Laravel Inertia</span>
+                            <span class="tech-tag api">Laravel API</span>
+                            <span class="tech-tag mobile">Ionic</span>
+                            <span class="tech-tag">Google Maps API</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag admin">MySQL</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">Real-time Tracking</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card scroll-reveal">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <div class="project-icon">💰</div>
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+                        <h3 class="project-title">Employee Loan Management & Accounting System</h3>
+                        <p class="project-description">
+                        Accounting platform where employees can submit loan applications and administrators can manage approval workflows, management of payables, ledgers, and disbursements. Features role-based access control, automated calculations, and comprehensive financial record management with audit trails.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag web">Laravel Inertia</span>
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag admin">MySQL</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
             <div class="projects-note scroll-reveal">
