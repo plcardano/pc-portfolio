@@ -19,7 +19,7 @@
     <meta property="og:url" content="<?php echo get_permalink(); ?>">
     <meta property="og:title" content="<?php if (is_single() || is_page()) {echo get_the_title() . ' - ' . get_bloginfo('name');} else {bloginfo('name') . ' - ' . get_bloginfo('description');}?>">
     <meta property="og:description" content="<?php if (is_single() || is_page()) {echo wp_strip_all_tags(get_the_excerpt());} else {bloginfo('description');}?>">
-    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/images/og-image.jpg">
+    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/images/android-chrome-512x512.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="<?php bloginfo('name'); ?>">
@@ -46,6 +46,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon-16x16.png">
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon.ico">
     <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/assets/images/site.webmanifest">
 
     <!-- Preconnect to external domains -->
