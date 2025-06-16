@@ -3,6 +3,71 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Primary Meta Tags -->
+    <meta name="description" content="<?php if (is_single() || is_page()) {echo wp_strip_all_tags(get_the_excerpt());} else {bloginfo('description');}?>">
+    <meta name="keywords" content="web developer, portfolio, projects, skills, contact">
+    <meta name="author" content="<?php bloginfo('name'); ?>">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="<?php echo get_permalink(); ?>">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?php echo get_permalink(); ?>">
+    <meta property="og:title" content="<?php if (is_single() || is_page()) {echo get_the_title() . ' - ' . get_bloginfo('name');} else {bloginfo('name') . ' - ' . get_bloginfo('description');}?>">
+    <meta property="og:description" content="<?php if (is_single() || is_page()) {echo wp_strip_all_tags(get_the_excerpt());} else {bloginfo('description');}?>">
+    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="<?php bloginfo('name'); ?>">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="<?php echo get_permalink(); ?>">
+    <meta property="twitter:title" content="<?php if (is_single() || is_page()) {echo get_the_title() . ' - ' . get_bloginfo('name');} else {bloginfo('name') . ' - ' . get_bloginfo('description');}?>">
+    <meta property="twitter:description" content="<?php if (is_single() || is_page()) {echo wp_strip_all_tags(get_the_excerpt());} else {bloginfo('description');}?>">
+    <meta property="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/images/twitter-image.jpg">
+    <meta name="twitter:creator" content="@yourtwitterhandle">
+    <meta name="twitter:site" content="@yourtwitterhandle">
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="application-name" content="<?php bloginfo('name'); ?>">
+    <meta name="apple-mobile-web-app-title" content="<?php bloginfo('name'); ?>">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <!-- Favicon links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon-16x16.png">
+    <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/assets/images/site.webmanifest">
+
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "<?php bloginfo('name'); ?>",
+        "url": "<?php echo home_url(); ?>",
+        "description": "<?php bloginfo('description'); ?>",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "<?php echo home_url(); ?>/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
     <?php wp_head(); ?>
 </head>
 
