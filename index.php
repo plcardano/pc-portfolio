@@ -40,7 +40,7 @@
 
                 <!-- Title with gradient animation -->
                 <h2 class="hero-title gradient-text-animated">
-                    Backend Developer
+                    Web Developer
                 </h2>
 
                 <!-- Description with word-by-word reveal -->

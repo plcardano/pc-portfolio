@@ -72,11 +72,8 @@
         <div class="footer-bottom">
             <div class="footer-bottom-content">
                 <p class="copyright">
-                    © 2025 Paul Louis Cardano. All rights reserved.
+                    ©2025 Paul Louis Cardano. All rights reserved.
                 </p>
-                <div class="footer-meta">
-                    <span class="built-with">Built with ❤️ using Laravel & Vue.js</span>
-                </div>
             </div>
         </div>
 
